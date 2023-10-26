@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bat dau tu: "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chon ngay bat dau " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngay ket thuc: "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chon ngay ket thuc " />
+
+    <Button
+        android:id="@+id/btnThongKe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thong ke" />
+
+    <TextView
+        android:id="@+id/txtKetQua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="99999vnd"
+        android:textSize="15sp"
+        android:textColor="#FF1744"
+        android:textStyle="bold"/>
+
+</LinearLayout>

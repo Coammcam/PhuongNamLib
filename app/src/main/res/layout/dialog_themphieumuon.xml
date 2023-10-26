@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thanh vien"
+        android:textSize="20sp"
+        android:textColor="#FF3D00"
+        android:textStyle="bold"/>
+    
+    <Spinner
+        android:id="@+id/spnThanhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sach"
+        android:textSize="20sp"
+        android:textColor="#FF3D00"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spnSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tien thue sach"
+        android:textSize="20sp"
+        android:textColor="#FF3D00"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtTien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap tien"/>
+
+</LinearLayout>
